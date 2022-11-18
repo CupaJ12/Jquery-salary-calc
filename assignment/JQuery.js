@@ -1,4 +1,4 @@
-console.log("Jquery is working");
+
 
 /*!
  * jQuery JavaScript Library v3.6.1

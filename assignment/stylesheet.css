@@ -1,5 +1,8 @@
 body {
   background-color: black;
+  font-size: large;
+  color: lightyellow;
+  
 }
 label {
  color: lightyellow; 
@@ -15,7 +18,13 @@ input {
     outline: auto;
     height: 20px;
     font-size: large;
+    transition: width 0.4s ease-in-out;
   }
 h2 {
     text-align: center
+}
+button {
+  border:lightyellow solid 1px;
+  background-color: #33a179;
+  size: 250px;
 }

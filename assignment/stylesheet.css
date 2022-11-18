@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+label {
+ color: lightyellow; 
+}
+h2 {
+  color: lightyellow; 
+}
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #33a179;
+    color: lightyellow;
+    outline: auto;
+    height: 20px;
+    font-size: large;
+  }
+h2 {
+    text-align: center
+}

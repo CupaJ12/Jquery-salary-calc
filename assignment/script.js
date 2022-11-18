@@ -29,9 +29,9 @@ function render() {
   for (const employee of employees) {
     console.log(employee)
     $('#employeeList').append(
-      `<li>
+      `<tr> <td>
       ${employee.Name} ${employee.Salary}
-      </li>`
+      </td></tr>`
       )
     }   
     $('#fname').val('') 

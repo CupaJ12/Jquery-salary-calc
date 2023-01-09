@@ -17,8 +17,8 @@ function addNewEmployee() {
     Title: $('#title').val(),
     Salary: $('#salary').val(),
   }
-  render()
   employees.push(newEmployee);
+  render()
 }
 
 
@@ -40,3 +40,22 @@ function render() {
     $('#title').val('') 
     $('#salary').val('') 
   }
+
+
+  // adding employees to list, comment out once finished with table structure
+
+  function pseudoRender() {
+    $('#garageList').empty();
+  
+    for (const employee of employees) {
+      console.log(employee)
+          $('#garageList').append(
+            `<li>
+            ${car.year} ${car.make} ${car.model}
+            </li>`
+            )
+          }   
+          $('#yearInput').val('') 
+          $('#modelInput').val('') 
+          $('#makeInput').val('') 
+        }
